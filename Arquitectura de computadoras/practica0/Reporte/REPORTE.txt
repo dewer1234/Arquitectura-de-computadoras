@@ -1,0 +1,2 @@
+
+Tuve problemas para instalar Xilinx ISE Webpack en windows 10, al instalarlo se para y me sale "Unable to open archive", no se que pudo haber pasado durante la instalacion, asi que volvi a instalarlo pero me volvió a salir el mismo error.
