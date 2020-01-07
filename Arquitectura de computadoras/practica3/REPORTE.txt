@@ -1,0 +1,41 @@
+REPORTE PRACTICA 3
+
+PRIMERA PARTE
+
+a) Los registros que se utilizan para almacenar las variables i y j son R3 para j y R2 para i.
+
+b) Para comparar si i es menor que 10, si se intercambian los ultimos 2 registros el programa termina en la instrucción 7.
+
+c)i tiene el valor de a (10 en decimal) y j tiene el valor de 32(50 en decimal)
+
+SEGUNDA PARTE
+
+c) La principal fuente de diferencia en los tiempos de ejecucion entre los 2 programas es que en la multiplicación toma mas tiempo cargar los valores, multiplicarlos y guardarlos por lo que es más costoso, en cambio en el de corrimiento lo unico que hace es hacer corrimientos lo cual nos lleva mucho menos tiempo en tiempo de ejecución.
+
+TERCERA PARTE
+
+
+b) Para todos los casos tomé 500 instrucciones para poder comparar cada código
+
+	1. En el primer código:
+		Ciclos: 803
+		CPI: 1.606
+		Riesgos RAW: 100
+		Riesgos estructurales: 100
+		Tamaño del código: 20 bytes
+
+    2. En el segundo código:
+    	Ciclos: 646
+    	CPI: 1.292
+    	Riesgos RAW: 107
+    	Riesgos estructurales: 35
+    	Tamaño del código: 60 bytes
+
+    3. En el tercer	código:
+    	Ciclos: 575
+		CPI: 1.140
+		Riesgos RAW: 36
+		Riesgos Estructurales 35
+		Tamaño del código: 56 bytes	
+
+	Dados los resultados podemos ver que el tercer código es más eficiente que los primeros 2, pues tiene menos riesgos RAW y estructurales, el CPI es menor y en cuanto el tamaño, es mayor al primero pero tiene menos riesgos RAW y estructurales, si comparamos con el segundo, el tamaño es menor pero en cambio este tiene menos riesgos raw y el cpi es menor.	
